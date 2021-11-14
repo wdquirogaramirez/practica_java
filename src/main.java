@@ -10,7 +10,10 @@ public class main {
         nuevo.ConsultaEditorDeCodigo();
         nuevo.ConsultaSistemaOperativo();
         nuevo.resumen();
+
+
+
         }
 
-    }
+}
 
