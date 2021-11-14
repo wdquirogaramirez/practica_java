@@ -57,7 +57,7 @@ public class usuarios {
         this.sistema_operativo = Sc.next();
     }
     public void  resumen (){
-        System.out.println("Gracias ! "+ this.nombre + "   " +this.apellido );
-        System.out.println("Tus preferencias son "+ this.sistema_operativo +",  "+  this.hobbie +",  " +this.editor_de_codigo + ", y tu edad es " +this.edad);
+        System.out.println("==>Gracias ! "+ this.nombre + "   " +this.apellido +"<==\n "+ "Tus preferencias son:  \n * "+ this.sistema_operativo +"\n * "+  this.hobbie +"\n * " +this.editor_de_codigo + "\n y tu edad es " +this.edad );
+
     }
 }
